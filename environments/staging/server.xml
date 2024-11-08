@@ -54,7 +54,7 @@
 <!--<keyStore id="defaultKeyStore" password="passw0rd"/> -->
 
 <!--DayTrader7xa app-->
-<application type="ear" id="daytrader7" name="daytrader7" location="daytrader7xa-mq-tpr-17.ear"/>
+<application type="ear" id="daytrader7" name="daytrader7" location="daytrader7xa-mq-tpr.ear"/>
 
 <applicationMonitor dropinsEnabled="true" updateTrigger="mbean"/> 
 <!-- updateTrigger expected value(s) are: [polled][mbean][disabled] -->
