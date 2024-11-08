@@ -1,7 +1,7 @@
 <server>
     <featureManager>
         <feature>ejb-3.2</feature>
-        <feature>servlet-4.0</feature>
+        <!-- <feature>servlet-4.0</feature> -->
         <feature>jsf-2.3</feature>
         <feature>jpa-2.2</feature>
 	<!-- rename per docs https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-superseded-features -->
