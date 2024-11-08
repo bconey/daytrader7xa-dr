@@ -83,7 +83,6 @@
                       databaseName="${env.dbName}"
                       sslConnection="true"
                       user="${env.dbUser}"
-	              driverType="4"
                       password="${tradedb-secret}"/>
 </dataSource>
 
