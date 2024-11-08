@@ -1,0 +1,28 @@
+version: 1.0
+app:
+  maven:
+    groupId: "daytrader7"
+    artifactId: "daytrader7xa-mq-tpr"
+    version: "17"
+    type: ear
+  instances:
+    min: 1
+    max: 2
+  java: 17
+  env:
+    - name: httpPort
+      value: "9080"
+    - name: httpsPort
+      value: "9443"
+    - name: dbHost
+      value: ec2-35-153-18-9.compute-1.amazonaws.com
+    - name: dbPort
+      value: "60005"
+    - name: dbName
+      value: TRADEDB
+    - name: dbUser
+      value: db2inst1
+    - name: mqHost
+      value: ec2-35-153-18-9.compute-1.amazonaws.com
+    - name: QueueManager
+      value: QM1
